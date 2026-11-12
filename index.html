@@ -4,39 +4,41 @@
             <title>Edu-Tech - Formacao em Tecnologia </title>
             <meta charset="UTF-8"> <!--Permite acentos, cedilha e carecteres  especiais -->
             <meta name="viewport" content="width-device-width,initial-scale=1.0">
+            <link rel="stylesheet" href="CSS/Style.css">
         </head> <!-- Cabecalho do corpo do site -->
 
     <body> <!--Corpo do site - Conteudo visivel para todos -->
         <header>
             <div>
-                <a href="index.html">Edu<span>Tech</span></a>
+                <a href="index.html" class="logo">Edu<span>Tech</span></a>
             </div>
                 <nav>
                     <a href="index.html">inicio</a>
-                    <a href="Sobre.html">sobre</a>
-                    <a href="cursos.html">Curso</a>
-                    <a href="contato.html">Contato</a>
+                    <a href="PAGES/Sobre.html">sobre</a>
+                    <a href="PAGES/cursos.html">Curso</a>
+                    <a href="PAGES/contato.html">Contato</a>
                 </nav>
         </header>
 
     <!--conteudo da pagina do site-->
     <main>
-        <section>
+        <section class="hero">
                   <div>
                         <h1>Formacao em Tecnologia para o mercado real</h1>
                         <p>Aprenda desenvolvimento web, logica e banco de dados com aulas praticas</p>
-                        <a href="cursos.html">Ver cursos</a> 
-                        <a href="contato.html">Fale conosco</a>                   
+                        <a class="btn-primario"  href="cursos.html">Ver cursos</a> 
+                        <a class="btn-secundario"  href="contato.html">Fale conosco</a>                   
                   </div>  
         </section>
-            <div>
+        <section class="destaques">   
+               <div>
                 <h2>Por que estudar na Edu-Tech</h2>
                 <div>
-                    <article>
+                    <article class="card">
                         <h3>Porjeto Reais</h3>
                         <p>Voce desenvolve sites em base em situacoes reais</p>
                     </article>
-                    <article>
+                    <article class="card">
                          <h3>Suporte com o instrutor</h3>
                          <p>Acompanhamento durante todo processo</p>   
                     </article>

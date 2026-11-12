@@ -4,15 +4,16 @@
             <title>Edu-Tech - Formacao em Tecnologia </title>
             <meta charset="UTF-8"> <!--Permite acentos, cedilha e carecteres  especiais -->
             <meta name="viewport" content="width-device-width,initial-scale=1.0">
+            <link rel="stylesheet" href="../CSS/Style.css">
         </head> <!-- Cabecalho do corpo do site -->
 
     <body> <!--Corpo do site - Conteudo visivel para todos -->
         <header>
             <div>
-                <a href="index.html">Edu<span>Tech</span></a>
+                <a href="index.html"  class="logo">Edu<span>Tech</span></a>
             </div>
                 <nav>
-                    <a href="index.html">inicio</a>
+                    <a href="../index.html">inicio</a>
                     <a href="Sobre.html">sobre</a>
                     <a href="cursos.html">Curso</a>
                     <a href="contato.html">Contato</a>
@@ -22,26 +23,29 @@
     <!--conteudo da pagina do site-->
     <main>
         <!--conteudo da pagina do site-->
-        <section>
+        <section class="cursos">
             <h2>Nossos Cursos</h2>
             <!--Cards do cursos-->
-            <article>
-                <img src="../images/desenvolvimento web.png" alt="desenvolvimento Web">
+            <article class="curso">
+                
                 <h3>desenvolvimento WEB</h3>
+               <img src="../images/desenvolvimento web.png" alt="desenvolvimento Web">
                 <p>Aprenda HTML, CSS, JS e praticas modernas de desenvolvimento.</p>
                 <strong>CH:</strong> 40h
             </article>
             
-             <article>
-                <img src="../images/imformatica basica.png" alt="Informatica basica">
+             <article class="curso">
+                
                 <h3>Informatica Basica</h3>
+                <img src="../images/imformatica basica.png" alt="Informatica basica">
                 <p>Domine o uso do computador e aplicativo essencias .</p>
                 <strong>CH:</strong> 30h
             </article>
             
-             <article>
-                <img src="../images/desenvolvimento jogos.png" alt="desenvolvimento de jogos">
+             <article class="curso">
+               
                 <h3>desenvolvimento de jogos</h3>
+                 <img src="../images/desenvolvimento jogos.png" alt="desenvolvimento de jogos">
                 <p>Aprenda a desenvolve jogos digitais desde o design ate a programacao.</p>
                 <strong>CH:</strong> 60h
             </article>
