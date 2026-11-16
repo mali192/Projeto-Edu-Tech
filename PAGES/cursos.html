@@ -1,10 +1,11 @@
 <!DOCTYPE html> <!--Tipo de Documento -HTML-->
 <html lang="pt-br"> 
     <head></html>
-            <title>Edu-Tech - Formacao em Tecnologia </title>
+            <title> Cursos - Edu-Tech </title> <!-- Titulo que parece na aba do navegador -->
             <meta charset="UTF-8"> <!--Permite acentos, cedilha e carecteres  especiais -->
-            <meta name="viewport" content="width-device-width,initial-scale=1.0">
-            <link rel="stylesheet" href="../CSS/Style.css">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- adapta o site o tamanho da tela do dispositivo movel-->
+            <meta name="description" content="Conheca os cursos da Edu-Tech"> <!-- Pequena descricao do site para navegodores e compartilhamento-->
+            <link rel="stylesheet" href="../CSS/Style.css"> <!-- linka o codigo HTML com a pagina CCS -->
         </head> <!-- Cabecalho do corpo do site -->
 
     <body> <!--Corpo do site - Conteudo visivel para todos -->
@@ -12,10 +13,10 @@
             <div>
                 <a href="index.html"  class="logo">Edu<span>Tech</span></a>
             </div>
-                <nav>
+                <nav class="menu">
                     <a href="../index.html">inicio</a>
                     <a href="Sobre.html">sobre</a>
-                    <a href="cursos.html">Curso</a>
+                    <a href="cursos.html" class="ativo">Curso</a>
                     <a href="contato.html">Contato</a>
                 </nav>
         </header>
@@ -25,31 +26,32 @@
         <!--conteudo da pagina do site-->
         <section class="cursos">
             <h2>Nossos Cursos</h2>
+            <div class="cursos-grind"> <!-- Container que o CSS  usa pra montar o grind dos cursos -->
             <!--Cards do cursos-->
-            <article class="curso">
+            <a href="pages/cursos" class="curso">
                 
                 <h3>desenvolvimento WEB</h3>
                <img src="../images/desenvolvimento web.png" alt="desenvolvimento Web">
                 <p>Aprenda HTML, CSS, JS e praticas modernas de desenvolvimento.</p>
                 <strong>CH:</strong> 40h
-            </article>
+            </a>
             
-             <article class="curso">
+             <a href="pages/cursos2" class="curso">
                 
                 <h3>Informatica Basica</h3>
                 <img src="../images/imformatica basica.png" alt="Informatica basica">
                 <p>Domine o uso do computador e aplicativo essencias .</p>
                 <strong>CH:</strong> 30h
-            </article>
+            </a>
             
-             <article class="curso">
+             <a href="pages/cursos3" class="curso">
                
                 <h3>desenvolvimento de jogos</h3>
                  <img src="../images/desenvolvimento jogos.png" alt="desenvolvimento de jogos">
                 <p>Aprenda a desenvolve jogos digitais desde o design ate a programacao.</p>
                 <strong>CH:</strong> 60h
-            </article>
-            
+            </a>
+            </div>
         </section>
     </main>
     <!------------------------------->
