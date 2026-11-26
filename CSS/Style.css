@@ -116,7 +116,7 @@ nav a:hover {
 
 
 }
-.card{
+.card-cursos{
     padding: 30px 20px;
     margin: 12px 0;
     border: 1px solid rgb(184, 191, 204);
@@ -135,6 +135,8 @@ nav a:hover {
     border: 1px solid rgb(226, 226, 226);
     border-radius: 8px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 .curso:hover {
     transform: translateY(-3px); /* Sobe um pouco */
@@ -168,14 +170,45 @@ input:focus,textarea:focus{
 
 }
 button{
-    background-color: #ff6a00;
-    color: white;
+    background-color: darkorange;
+    color: rgb(0, 0, 0);
     border-radius: 8px;
     border: none;
     padding: 10px 20px; 
     cursor: pointer;
+    
 }
 
 #containerformcontato{
     text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+.contatoform{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Paginas login e cadastro*/
+
+.cadastro, .login{
+    padding: 40px 20px;
+}
+
+.loginform, .contatoform{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    flex-direction: flex;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.178);
+    gap: 10px;
 }
